@@ -6,7 +6,7 @@ import { NewsComponent } from './pages/news/news.component';
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: NewsComponent},
-  { path: '**', component: PagenotfoundComponent},
+  { path: '**', component: NewsComponent},
 ];
 
 @NgModule({

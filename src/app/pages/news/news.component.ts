@@ -17,11 +17,6 @@ export class NewsComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.today = new Date();
-    this.day = this.today.getFullYear() + this.today.getFullMonth() + this.today.getDate();
-
-    console.log(this.day);
-
     this.newsService.getNews().subscribe(data => {
       this.articles = data['articles'].filter(elem => { return elem['urlToImage' && 'content'] != null });
       // console.log(this.articles);
