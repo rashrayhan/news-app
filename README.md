@@ -11,4 +11,4 @@ TODO https://www.npmjs.com/package/ngx-infinite-scroll
 
 
 ## Hosted 
-The site is hosted using firebase on [Link to site] (https://corded-keel-97911.firebaseapp.com/home)
+The site is hosted using firebase on [link to site](https://corded-keel-97911.firebaseapp.com/home)
